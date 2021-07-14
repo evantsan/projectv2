@@ -1,0 +1,64 @@
+body {
+    background: rgb(0, 255, 46);
+    background: linear-gradient(360deg, rgba(0, 255, 46, 1) 0%, rgba(0, 245, 255, 1) 50%, rgba(248, 0, 255, 1) 100%);
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+}
+
+hr {
+    background-color: black;
+    height: 10px;
+    width: 400px;
+
+}
+
+h1 {
+    font-family: 'Electrolize', sans-serif;
+}
+
+p {
+    font-family: 'Orbitron', sans-serif;
+    max-width: 400px;
+}
+
+.linky {
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Electrolize', sans-serif;
+
+
+}
+
+.ulid {
+    list-style: none;
+    top: 0px;
+    right: 40px;
+    position: fixed;
+    z-index: 100;
+}
+
+.linky:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+        cursor: pointer;
+    background-color: black;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
